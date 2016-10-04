@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+   <!-- Site Title -->
+    <title>Random Quote Machine</title>
+	
+	<meta name="description" content="quotes">
+    <meta name="keywords" content="chandana,randomQuotes,api">
+	
+	<!-- To ensure proper rendering on mobile devices and disable zooming capabilities -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+	 <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Tangerine|Piedra|Lato" rel="stylesheet">
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Animation CSS
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+	 -->
+	
+	<!-- Main CSS -->
+	<link href="style/RandomQuote.css" rel="stylesheet"> 
+	
+	 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+
+<body class="bg-scroll">
+<div class="container-fluid"> 
+    
+	<!-- PAGE START -->
+  	<div id="main">
+      <div class="container header">
+        <div class="row text-center">
+		<div class="brand">LC</div>
+		  <div class="col-md-8 col-md-offset-2">
+		  <span class="text-cursive">Random Quote Machine</span>
+		  </div>
+            <!--  <p>Random Quote Machine</p>  -->
+			</div> <!-- //.col-md-8 -->
+        </div> <!-- //.row -->
+		  
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+				<div class="well well-custom">
+				<i class="fa fa-quote-left fa-2x" aria-hidden="true"></i>
+				<blockquote>
+					<p id="quoteDisplay">Click on the "Surprise Me!" button to generate a random quote.</p><hr/>
+					<footer class="cite-custom">
+						<cite id="authorDisplay">Chandana</cite>
+						<a class="twitterLink" href="#" target="_blank">
+						<i id="getTweet" class="fa fa-twitter fa-2x pull-right" aria-hidden="true"></i></a>
+					</footer>
+				</blockquote>
+				</div> <!-- //.well -->
+			</div> <!-- //.col-md-8 -->		
+			<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-center">
+				<button id="getQuote" class="btn btn-custom btn-lg"><i class="fa fa-bolt" aria-hidden="true"></i>Surprise Me!</button>		
+			</div> <!-- //.col-md-8 -->
+        </div> <!-- //.row -->
+		   
+        </div>
+      </div>
+    </div>
+  	<!-- PAGE END -->
+
+<!-- //FOOTER SECTION -->
+	<footer class="text-center">
+			<p style="padding-top:20px;">Developed by <a href="https://github.com/ChandanaChaitanya" target="_blank" title="freeCodeCamp">Lakshmi Chandana</a> - 2016</p>
+			
+			<p>Quotes API Credits: <a target="_blank" href="https://market.mashape.com/andruxnet/random-famous-quotes">Andrux</a></p>
+	</div> <!-- //.footer -->
+<!-- //FOOTER SECTION -->			
+				
+<!-- SCRIPTS :placed at the end so that page loads faster -->
+	<!-- Latest compiled and minified JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Font icons -->
+	<script src="https://use.fontawesome.com/ba8437ed1f.js"></script>   
+	<!-- Main JS -->
+	<script src="js/RandomQuote.js"></script>
+<!--</div>  //.container-fluid --> 
+</body>
+</html>
+
+
